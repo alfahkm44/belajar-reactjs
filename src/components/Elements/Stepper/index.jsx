@@ -36,7 +36,7 @@ const Stepper = (props) => {
                     "& .MuiMobileStepper-dot" : {
                         backgroundColor: "darkgray",
                     },
-                    "& .MuiMobileStepper-dot" : {
+                    "& .MuiMobileStepper-dotActive" : {
                         backgroundColor: "#299D91",
                     },
                  }}

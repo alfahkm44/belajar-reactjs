@@ -98,7 +98,6 @@ const DashboardPage = () => {
   {/* top content start*/}
   <div className="md:grid md:grid-cols-3 md:gap-x-6">
     <CardBalance/>
-    <Card title="Total Balance" />
     <Card title="Goals" />
     <Card title="Upcoming Bill" desc={billCard} />
     <Card
