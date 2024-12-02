@@ -336,6 +336,25 @@ const ArrowUpIcon = () => (
   </IconWrapper>
 );
 
+const ArrowUpRight = () => (
+  <IconWrapper>
+    <path 
+      d="M4.6665 11.3337L11.3332 4.66699" 
+      stroke="#4DAF6E" 
+      strokeWidth="1.5" 
+      strokeLinecap="round" 
+      strokeLinejoin="round" 
+    />
+    <path 
+      d="M4.6665 4.66699H11.3332V11.3337" 
+      stroke="#4DAF6E" 
+      strokeWidth="1.5" 
+      strokeLinecap="round" 
+      strokeLinejoin="round" 
+    />
+  </IconWrapper>
+);
+
 export const Icon = {
   Overview: OverviewIcon,
   Balance: BalanceIcon,
@@ -355,6 +374,7 @@ export const Icon = {
   ArrowRight: ArrowRightIcon,
   ArrowDown: ArrowDownIcon,
   ArrowUp: ArrowUpIcon,
+  ArrowUpRight: ArrowUpRight,
 };
 IconWrapper.propTypes = {
   children: PropTypes.node.isRequired, // Validasi children sebagai node
