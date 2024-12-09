@@ -12,7 +12,7 @@ const Header = () => {
       </div>
       <div className="flex">
         <div className="self-center">
-          <NotificationsIcon className="text-gray-01 scale-110" />
+          <NotificationsIcon className="text-primary scale-110" />
         </div>
         <div className="ms-10 hidden sm:block">
           <Input variant="bg-white w-80" />

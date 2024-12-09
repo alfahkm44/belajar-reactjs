@@ -40,7 +40,7 @@ const App = () => {
       element: <ExpensePage/>
     },
     {
-      path: "/goals",
+      path: "/goal",
       element: <GoalPage/>
     }
 
