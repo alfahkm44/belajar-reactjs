@@ -22,8 +22,8 @@ export default {
           "bg2": "rgba(255, 255, 255, 0.7)",
           "bg3": "rgba(255, 255, 255, 0.08)",
           "mainBg": "#F4F5F7",
-          "green": "#E73D1C",
-          "red": "#4DAF6E"
+          "green": "#4DAF6E",
+          "red": "#E73D1C"
         } 
       },
       
@@ -35,4 +35,3 @@ export default {
   },
   plugins: [],
 }
-
