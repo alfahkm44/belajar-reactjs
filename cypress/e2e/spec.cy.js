@@ -7,8 +7,8 @@ describe("User login", () => {
     cy.get("input#email")
       .should("be.visible")
       .should("have.attr", "placeholder", "hello@example.com")
-      .type("111202214121@mhs.dinus.ac.id")
-      .should("have.value", "111202214121@mhs.dinus.ac.id");
+      .type("111202214234@mhs.dinus.ac.id")
+      .should("have.value", "111202214234@mhs.dinus.ac.id");
 
     cy.get("input#password")
       .should("be.visible")
@@ -30,7 +30,7 @@ describe("User login", () => {
     cy.get("input#email")
       .should("be.visible")
       .should("have.attr", "placeholder", "hello@example.com")
-      .type("111202214121mhs.dinus.ac.id")
+      .type("111202214234mhs.dinus.ac.id")
       .should("have.value", "111202214121mhs.dinus.ac.id");
 
     cy.get("input#password")
@@ -51,7 +51,7 @@ describe("User login", () => {
       .should("be.visible")
       .should("have.attr", "placeholder", "hello@example.com")
       .type("111202214121@")
-      .should("have.value", "111202214121@");
+      .should("have.value", "111202214234@");
 
     cy.get("input#password")
       .should("be.visible")
@@ -70,7 +70,7 @@ describe("User login", () => {
     cy.get("input#email")
       .should("be.visible")
       .should("have.attr", "placeholder", "hello@example.com")
-      .type("111202214121@mhsdinusacid")
+      .type("111202214234@mhsdinusacid")
       .should("have.value", "111202214121@mhsdinusacid");
 
     cy.get("input#password")
